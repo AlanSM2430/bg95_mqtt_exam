@@ -235,11 +235,11 @@ HiveMQ web client intermitente	No conectaba desde navegador	Usar MQTTX Desktop
 13. Evidencia
 Video de funcionamiento en tiempo real:
 ```txt
-Repositorio Gmail / Google Drive: [PEGAR_LINK_AQUI]
+Repositorio Gmail: https://drive.google.com/drive/folders/1nnJItRAP_515ayQ88oyfTWMp9vo-AK-E?usp=drive_link
 ```
 Repositorio de código:
 ```txt
-GitHub: [PEGAR_LINK_AQUI]
+GitHub: https://github.com/AlanSM2430/bg95_mqtt_exam
 ```
 La evidencia debe mostrar:
 Monitor serial ESP-IDF.
