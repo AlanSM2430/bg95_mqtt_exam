@@ -1,0 +1,13 @@
++------------------+        UART AT        +--------------------+        LTE-M        +---------------+
+|    ESP32-C6      | <-------------------> | Quectel BG95-M3    | <----------------> | MQTT Broker   |
+|                  |                       |                    |                    |               |
+| FreeRTOS tasks   |                       | TCP/IP + MQTT AT   |                    | HiveMQ / etc. |
+| LED RGB GPIO     |                       | PDP Context        |                    |               |
++------------------+                       +--------------------+                    +---------------+
+
+GPIO8  -> BG95 RX
+GPIO7  <- BG95 TX
+GPIO15 -> PWRKEY circuit
+GPIO4  -> Red LED
+GPIO5  -> Green LED
+GPIO12 -> Blue LED
